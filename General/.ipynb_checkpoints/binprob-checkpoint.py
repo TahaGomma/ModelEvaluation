@@ -10,7 +10,7 @@ Created on Tue Jul 27 10:27:52 2021
 
 # %% Creating functions
 def GI(P_i, n_elements=2):
-    """Calculates the Gini index based on the given probability P_i and
+    """Calculates the Entropy based on the given probability P_i and
     the number of elements n_elements;
     n_elements to be used for non-binary systems"""
     import numpy as np
